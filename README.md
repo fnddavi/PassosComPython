@@ -4,6 +4,6 @@
 
 ### Material de referência:
 
-    PYTHON, Introdução à programação com. (2ª edição), 2010. Menezes, Nilo Ney Coutinho.
+    PYTHON, Introdução à programação com. (2ª edição), 2014. Menezes, Nilo Ney Coutinho.
 
-    Curso Python (Mundo 1). Curso em Vídeo, Canal (YouTube).
+    Curso Python (Mundo 1). Curso em Vídeo, 2017. Canal (YouTube).
