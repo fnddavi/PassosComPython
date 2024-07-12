@@ -33,7 +33,7 @@ print(frase.count('o',0,13))
 # Trará qntas vezes traz o 'o' e permite delimitar os indices que serão analisados (aqui de 0 a 13)
 
 print(frase.find('deo'))
-# Procura e traz em qual indice começa a sequencia de caracter estabelecida (aqui, "deo"). Se ocorreer mais de uma vez, será indicado também (?!)
+# Procura e traz em qual indice começa a sequencia de caracter estabelecida (aqui, "deo"). Se ocorrer mais de uma vez, será indicado também (?!)
 
 print(frase.find('Fernando'))
 # Considerando a frase, não será encontrado a sequencia de caracter pedido, então retornará o indice "-1" (não existe)
@@ -67,6 +67,9 @@ print(frase.rstrip())
 
 print(frase.split())
 # método que remove os espaços entre as palavras e as separa em uma lista
+
+print(frase.split()[0])
+# Neste caso, mostra a palavra que foi posta no indice 0 da lista
 
 print('-'.join(frase))
 # método que junta as palavras da lista com o caracter que está entre as aspas
