@@ -11,6 +11,5 @@ elif num > 9999:
     print("Numero inválido!")
 else:
     num_para_string = str(num)
-    print(type(num_para_string))
 
-print(len(string))
+print('-'.join(num_para_string))
