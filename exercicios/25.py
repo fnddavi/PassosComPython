@@ -5,16 +5,17 @@ Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA"no nome.
 nome_ = input("O nome completo: ");
 nome_low = nome_.lower();
 
-
 def verificar_espaco(nome):
     if ' ' not in nome:
-        return "É preciso ao menos dois termos no nome." #Não passou aqui (15-07-2024)
+        print("É preciso ao menos dois termos no nome.")
+        return "Erro"
     else:
-        return "Aguarde..."
+        print("Aguarde a verificação...")
+        return "OK"
 
 verificado = (verificar_espaco(nome_))
-if verificado == "Aguarde..." :
+if verificado == "OK" :
     if "silva" in nome_low :
-        print("True")
+        print("Há Silva em seu nome")
     else:
-        print("False")
+        print("Não há Silva em seu nome")
