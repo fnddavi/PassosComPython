@@ -7,7 +7,7 @@ Faça um programa que leia uma frase pelo teclado e mostre:
 
 frase = input("Frase: ").lower()
 letraA = frase.count('a')
+letraFim = frase.rfind('a')
+letraIni = frase.find('a')
 
-
-
-print(f"A letra 'a' aparece {letraA} vezes no texto inserido")
+print(f"A letra 'a' aparece {letraA} vezes no texto inserido, pela primeira vez na posição {letraIni} e pela última vez na posição {letraFim}")
