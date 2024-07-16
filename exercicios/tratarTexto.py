@@ -73,3 +73,18 @@ print(frase.split()[0])
 
 print('-'.join(frase))
 # método que junta as palavras da lista com o caracter que está entre as aspas
+
+# Alguns dos métodos mais comuns para manipulação de strings em Python:
+ * len(): Retorna o tamanho da string.
+ * lower(): Converte todas as letras da string para minúsculas.
+ * upper(): Converte todas as letras da string para maiúsculas.
+ * capitalize(): Converte a primeira letra da string para maiúscula e as demais para minúsculas.
+ * count(): Conta o número de ocorrências de uma substring na string.
+ * find(): Retorna a posição da primeira ocorrência de uma substring na string.
+ * rfind(): Retorna a posição da última ocorrência de uma substring na string.
+ * startswith(): Verifica se a string começa com uma substring específica.
+ * endswith(): Verifica se a string termina com uma substring específica.
+ * strip(): Remove espaços em branco do início e do fim da string.
+ * replace(): Substitui todas as ocorrências de uma substring por outra na string.
+ * split(): Divide a string em uma lista de strings com base em um delimitador.
+ * join(): Une uma lista de strings em uma única string com base em um delimitador.
