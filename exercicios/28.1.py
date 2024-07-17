@@ -9,7 +9,10 @@ import random
 user_num = int(input("Digite um número de 0 a 5: "))
 sis_num = random.randint(1, 5)
 
-if user_num == sis_num:
-    print("Acertou!")
+if 1 <= user_num <= 5:
+    if user_num == sis_num:
+        print("Acertou!")
+    else:
+        print("Errou! O Número sorteado é {}".format(sis_num))
 else:
-    print("Errou! O Número sorteado é {}".format(sis_num))
+    print('Inseriu um numero fora do que foi solicitado...')
