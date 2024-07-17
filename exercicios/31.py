@@ -9,3 +9,4 @@ if user_dist<=200:
     print(f'Custo da viagem será de R${user_dist*0.5:.2f}')
 else:
     print(f'Custo da viagem sera de R${user_dist*0.45:.2f}')
+

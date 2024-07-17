@@ -10,3 +10,4 @@ if vel_considerada >= 1:
     print(f'Multado! Excedeu em {vel_considerada} km/h. Multa de {vel_considerada*7} R$')
 else:
     print('Não foi desta vez, mas vamos te multar!')
+
