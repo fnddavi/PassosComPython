@@ -2,9 +2,13 @@
 Faça um programa que leia três números e mostre qual é o maior e qual é o menor
 """
 
-n1 = int(input("Numero.: "))
-n2 = int(input("Numero..: "))
-n3 = int(input("Numero...: "))
+nrs = []
+
+for i in range(3):
+    n = int(input(f"Número {i+1}: "))
+    nrs.append(n)
+
+n1, n2, n3 = nrs
 
 # Sugestão By GPT:
 # Inicializa as variáveis de maior e menor com o primeiro número
