@@ -4,7 +4,7 @@ aumento. Para salários superiores a R$1250,00, calcule um aumento de 10%. Para 
 inferiores o iguais, o aumento é de 15%.
 '''
 
-slr = float(input('Salário do candango que vai receber aumento: '))
+slr = float(input('Digite o salário do funcionário: '))
 
 if slr <= 1250:
     print(f"Com aumento de 15%: R${(slr*0.15)+slr}")
