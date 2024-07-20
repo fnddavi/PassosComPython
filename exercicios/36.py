@@ -9,7 +9,8 @@ from time import sleep
 # Entrada de dados
 vlrCasa = float(input("Valor do imóvel: "))
 sal = float(input("Salário do(s) comprador(es): "))
-prazo_m = int(input("Pagamento em quantos anos: ")) * 12
+prazo_m = (
+    int(input("Pagamento em quantos anos: ")) * 12)  # Anos*12 para conseguirmos o prazo em meses
 
 # Cálculo da parcela mensal
 vlrParcela = vlrCasa / prazo_m
@@ -18,12 +19,12 @@ print("Parcela: {:.2f}".format(vlrParcela))
 print("Limite no salário: {:.2f}".format(sal * 0.3))
 
 
-# Pausa de 5 segundos
+# Pausa em segundos
 sleep(2)
 
 # Verificação da condição de aprovação do empréstimo
 if vlrParcela > (sal * 0.3):
-    print('Empréstimo negado. A parcela excede 30% do salário.')
-    
+    print("Empréstimo negado. A parcela excede 30% do salário.")
+
 else:
     print("Empréstimo aprovado! O financiamento pode ser realizado.")

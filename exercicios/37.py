@@ -3,12 +3,11 @@ Escreva um programa que leia um número inteiro qualquer e peça para o usuário
 qual será a base de conversão: 1 pra binário; 2 para octal; 3 para hexadecimal
 '''
 
-
 print('='*60)
 print('Aqui você pode converter numeros da base decimal para a base binária, octal ou hexadecimal\nInsira abaixo um numero que deseja converter')
 print('='*60)
 
-vlr_usr = float(input("Valor: "))
+vlr_usr = int(input("Valor: "))
 
 print('''Insira abaixo para qual base deseja converter:\n
       2 - para binaria\n
