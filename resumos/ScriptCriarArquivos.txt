@@ -1,0 +1,4 @@
+for ($i = 41; $i -le 75; $i++) {
+    $filename = "{0:D2}.py" -f $i
+    New-Item -Name $filename -ItemType "File"
+}
