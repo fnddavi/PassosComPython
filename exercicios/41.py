@@ -12,11 +12,11 @@ idade = (datetime.today().year - user_DtNasc)
 
 if idade < 9:
     print('Mirim')
-elif idade >= 9 and idade <= 14:
+elif idade <= 14:
     print('Infantil')
-elif idade > 14 and idade <= 19:
+elif idade <= 19:
     print('Junior')
-elif idade > 19 and idade <= 25:
+elif idade <= 25:
     print('Senior')
 else:
     print('Master')

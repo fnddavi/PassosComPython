@@ -16,7 +16,7 @@ ano = date.today().year
 anoNasc = (ano-usr)
 
 if usr < 17:
-    print('Relaxa, ainda não precisa se preocupar com isso')
+    print(f'Relaxa, ainda não precisa se preocupar com isso.\nSeu alistamento deverá ser em {ano+(18-usr)}')
 elif usr == 17:
     print(f'Se faz 18 este ano de {ano}, procure o serviço miliar mais proximo e se aliste')
 elif usr >= 18:
