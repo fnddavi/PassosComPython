@@ -25,4 +25,4 @@ if seTriangulo:
     else:
         print('Escaleno')
 else:
-    ('Houve erro! Verifique e tente novamente.')
+    ('Houve um erro! Verifique e tente novamente.')
