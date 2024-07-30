@@ -3,9 +3,9 @@ Desenvolva um programa que leia seis números inteiros e mostre a soma apenas da
 '''
 
 nm=0
+soma = 0
 for i in range(0, 6):
     nm = int(input(f"{i+1}o Numero: "))
-
-if nm % 2 == 0:
-    soma = (nm+nm)
-    print(soma)
+    if nm % 2 == 0:
+        soma += nm
+        print(soma)
