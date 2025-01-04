@@ -1,8 +1,10 @@
-'''
+"""
 Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
-'''
+"""
 
-print("Verificaremos se o número que sugerir é primo ou não. Tente um número de 1 a 1000.")
+print(
+    "Verificaremos se o número que sugerir é primo ou não. Tente um número de 1 a 1000."
+)
 num = int(input("\nQual número? "))
 
 
@@ -15,6 +17,6 @@ if num > 1:
     if primo:
         print("Primo")
     else:
-        print("NÃO Primo 2")
+        print("NÃO Primo")
 else:
-    print("NÃO Primo 1")
+    print("NÃO Primo (número menor que 2)")

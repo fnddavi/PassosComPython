@@ -5,8 +5,10 @@ Faça um programa que calcule a soma entre todos os números ímpares que são m
 from time import sleep
 
 soma = 0
-for c in range(0, 501):
+for c in range(1, 501):
     if c % 2 != 0 and c % 3 == 0:
-        soma = soma + c
+        soma += c
+        print(f"Adicionando {c}, soma atual: {soma}")
+        sleep(0.5)
 
-print(soma)
+print(f"\nSoma final: {soma}")
