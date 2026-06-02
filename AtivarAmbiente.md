@@ -1,11 +1,12 @@
 ## Criar o ambiente virtual:
 
-    python -m venv venv
+    python -m venv .venv
 
 
 ## Para ativar o ambiente virtual:
 
-    venv\Scripts\activate
+    venv\Scripts\activate (windows)
+    .venv/bin/activate (linux)
 
     ou
     
