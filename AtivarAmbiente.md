@@ -5,7 +5,7 @@
 
 ## Para ativar o ambiente virtual:
 
-    venv\Scripts\activate (windows)
+    .venv\Scripts\activate (windows)
     .venv/bin/activate (linux)
 
     ou
